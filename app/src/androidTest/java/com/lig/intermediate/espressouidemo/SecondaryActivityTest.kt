@@ -43,7 +43,4 @@ class SecondaryActivityTest(){
             .check(matches(withText(R.string.text_secondaryactivity)))
     }
 
-
-    
-
 }
