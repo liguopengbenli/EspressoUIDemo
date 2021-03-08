@@ -33,7 +33,6 @@ class MainActivityTest{
 
         //onView(withId(R.id.button_back)).perform(click()) // method 1
         pressBack() // method 2
-
         onView(withId(R.id.main)).check(matches(isDisplayed()))
     }
 
